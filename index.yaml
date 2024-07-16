@@ -3,6 +3,16 @@ entries:
   plus:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-07-16T11:02:45.047746409Z"
+    description: A Helm chart for Kubernetes
+    digest: d13508b6872e889ed7f5095d42b28a0cdd1531ce2b537479d69ee4da34debb45
+    name: plus
+    type: application
+    urls:
+    - plus-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-07-16T03:55:16.320344328Z"
     description: A Helm chart for Kubernetes
     digest: abe88dc3d041e2642339ad7beadc0aa0c93c424ab384a68770ca20e2df5fc5e0
@@ -11,4 +21,4 @@ entries:
     urls:
     - plus-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-16T03:55:16.320354507Z"
+generated: "2024-07-16T11:02:45.047754464Z"
