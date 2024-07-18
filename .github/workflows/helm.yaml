@@ -19,7 +19,7 @@ jobs:
       - name: Configure Git
         run: |
           git config user.name "$GITHUB_ACTOR"
-          git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
+          git config user.email "$GITHUB_ACTOR@xsense.co.th"
 
       - name: Install Helm
         uses: azure/setup-helm@v4
@@ -30,4 +30,4 @@ jobs:
           skip_existing: true
           packages_with_index: true
         env:
-          CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+          CR_TOKEN: "${{ github.token }}"
